@@ -279,7 +279,7 @@ h3.big-heading {
 
 .card .title {
     color: var(--slate);
-    line-height: 1px;
+    line-height: 10px;
     
 }
 
@@ -296,12 +296,6 @@ h3.big-heading {
 
     
 } */
-
-.social-icons {
-    color: var(--green);
-    padding: 5px 22px;
-}
-
 
 
 
@@ -464,14 +458,20 @@ h3.big-heading {
 footer {
     text-align: center;
     margin: auto;
-    color: var(--slate);
     padding: 1rem;
 
 }
 
+.social-icons {
+    color: var(--green);
+    padding: 55px 22px;
+}
+
+
 footer p {
     position: relative;
     bottom: 40px;
+    color: var(--slate);
 }
 
 footer p:hover {
